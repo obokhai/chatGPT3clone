@@ -76,7 +76,7 @@ const handleSubmit = async (e) =>{
 
   loader(messageDiv)
 
-  const response = await fetch('https://chatgpt-clone-3299.onrender.com', {
+  const response = await fetch('https://chatgpt-clone-m5xx.onrender.com/', {
     method:'POST',
     headers:{
       'Content-Type' : 'application/json'
